@@ -4,7 +4,6 @@ from django.db import models
 
 from .validators import validate_year
 
-
 USER = 'user'
 MODERATOR = 'moderator'
 ADMIN = 'admin'
