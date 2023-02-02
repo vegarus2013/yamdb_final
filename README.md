@@ -1,6 +1,10 @@
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=plastic&logo=Docker&logoColor=FFFFFF) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=plastic&logo=postgresql&logoColor=FFFFFF) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=plastic&logo=nginx&logoColor=FFFFFF) ![Python 3.7](https://img.shields.io/badge/Python-_>_3.7-3776AB?style=plastic&logo=python&logoColor=FFFFFF) ![Django-Yamdb Workflow](https://github.com/vegarus2013/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
+Сайт развернут - http://yamdb.vegarus.su/api/v1/
+Документация доступна по эндпойнту: http://yamdb.vegarus.su/redoc/
+
 ---
+
 # API_YAMDB
 _REST API проект для сервиса YaMDb — сбор отзывов о фильмах, книгах или музыке._
 
@@ -12,8 +16,7 @@ _REST API проект для сервиса YaMDb — сбор отзывов �
 ## Как запустить проект:
 1. Клонируем репозиторий и переходим в него
 ```bash
-git clone https://github.com/vegarus2013/infra_sp2
-cd infra_sp2/api_yamdb
+git clone https://github.com/vegarus2013/yamdb_final
 ```
 2. Прежде чем запустить проект. Необходимо создать файл .env расположенный по пути **infra/.env** (не включен в текущий репозиторий).
 **Шаблон наполнения:**
