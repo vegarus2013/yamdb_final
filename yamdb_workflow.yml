@@ -51,7 +51,7 @@ jobs:
         uses: docker/build-push-action@v2 
         with:
           push: true
-          tags: mvnikolay/api_yamdb:v.2.1.31
+          tags: ${{ secrets.DOCKER_USERNAME }}/api_yamdb:latest
           file: api_yamdb/Dockerfile
 
   deploy:
@@ -68,7 +68,7 @@ jobs:
         key: ${{ secrets.SSH_KEY }}
         # passphrase: ${{ secrets.PASSPHRASE }} # Если ваш ssh-ключ защищён фразой-паролем
         script: |
-          sudo docker pull mvnikolay/api_yamdb
+          sudo docker pull ${{ secrets.DOCKER_USERNAME }}/api_yamdb:latest
           sudo docker-compose stop
           sudo docker-compose rm web
           touch .env
