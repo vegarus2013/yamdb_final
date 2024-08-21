@@ -1,5 +1,9 @@
+## *Внимание!*
+
+Проект спринта "Yamdb v.1" отмечен как архивный, информация по спринту устарела. На Яндекс Практикуме теперь содержится новая версия тренажера.
+
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=plastic&logo=Docker&logoColor=FFFFFF) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=plastic&logo=postgresql&logoColor=FFFFFF) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=plastic&logo=nginx&logoColor=FFFFFF) ![Python 3.7](https://img.shields.io/badge/Python-_>_3.7-3776AB?style=plastic&logo=python&logoColor=FFFFFF)
-![Django-Yamdb Workflow](https://github.com/vegarus2013/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+
 
 # API_YAMDB
 _REST API проект для сервиса YaMDb — сбор отзывов о фильмах, книгах или музыке._
